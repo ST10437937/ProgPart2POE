@@ -120,3 +120,5 @@ public class Message {
         return totalMessages;
     }
 }
+
+// OpenAI.(2025). ChatGpt(version 4-0). Avaliable at: https://chatgpt.com/ [Accessed 24 May 2025]
