@@ -1,4 +1,4 @@
-// MessagingInterface.java
+
 package com.newapp;
 
 import org.json.simple.JSONArray;
