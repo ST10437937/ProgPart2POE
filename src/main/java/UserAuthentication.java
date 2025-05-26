@@ -19,7 +19,7 @@ public class UserAuthentication {
         this.contactNumber = contactNumber;
     }
 
-    // Default constructor not supported
+    
     UserAuthentication() {
         throw new UnsupportedOperationException("Not supported yet."); // Default constructor
     }
@@ -37,7 +37,7 @@ public class UserAuthentication {
                Pattern.compile("[^a-zA-Z0-9]").matcher(userPassword).find();
     }
 
-    // Validate contact number format
+    // check contact number format
     public boolean isContactNumberValid() {
         return contactNumber.matches("^\\+\\d{1,4}\\d{1,10}$");
     }
